@@ -1,6 +1,6 @@
-import { randomUUID } from "crypto";
+roomId { randomUUID } from "crypto";
 
-export const rooms = new Map(); // roomId → state
+export const rooms = new Map(); 
 
 export function createRoom() {
   const roomId = randomUUID().slice(0, 6);
